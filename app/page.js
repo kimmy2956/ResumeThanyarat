@@ -48,9 +48,14 @@ export default function Home() {
         <h2 className="text-2xl font-semibold">ประสบการณ์การทำงาน</h2>
         <div className="mt-3 space-y-3 text-slate-700">
           <div>
-            <div className="font-semibold">ตำแหน่ง — บริษัทบางกอกเพรสพาร์ทส จำกัด</div>
+            <div className="font-semibold">ตำแหน่ง Sale Engineering — บริษัท บางกอกเพรสพาร์ทส จำกัด</div>
             <div className="text-sm text-slate-500">ธันวาคม 2564 — ปัจจุบัน</div>
             <div className="mt-1">หน้าที่และความรับผิดชอบ ดูแลฝ่ายขาย</div>
+          </div>
+          <div>
+            <div className="font-semibold">ตำแหน่ง Support Technical Engineering — บริษัท ทรูคอร์ปอเรชั่น จำกัด</div>
+            <div className="text-sm text-slate-500">ธันวาคม 2564 — ปัจจุบัน</div>
+            <div className="mt-1">หน้าที่และความรับผิดชอบ ชัพพอร์ตด้านเทคนิค งานช่างติดตั้งอินเตอร์เน็ต</div>
           </div>
         </div>
       </section>
