@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import ProjectCard from '../components/ProjectCard'
+
 export default function Home() {
   const projects = [
     { title: 'Project เว็บคำนวณ', desc: 'เว็บไซต์นี้สร้างขึ้นเพื่อคำนวณราคาสำหรับฝ่ายขาย', link: 'https://kimmy2956.github.io/salebpp-cululation/' },
@@ -9,16 +12,16 @@ export default function Home() {
     <section>
       <div className="flex items-center gap-6">
         <div style={{width:120}} className="rounded-full overflow-hidden">
-          <a href="https://www.facebook.com/share/19qMJ9rTwQ/?mibextid=wwXIfr" alt="thanyarat photo" width={120} height={120} />
+          <Image src="/profile.jpg" alt="profile" width={120} height={120} />
         </div>
         <div>
           <h1 className="text-3xl font-bold">ธันยรัศมิ์ ประภาจิรสกุล</h1>
           <p className="text-slate-600">ตำแหน่งปัจจุบัน Sale Engineering</p>
           <p className="mt-2 text-sm text-slate-500">รักการเรียนรู้เทคโนโลยีใหม่ ๆ ทำงานเป็นระบบ</p>
           <div className="mt-3 flex gap-3">
-            <a href="https://thanyarat.phapa@gmail.com" className="px-3 py-1 border rounded">Email</a>
+            <a href="mailto:thanyarat.phapa@gmail.com" className="px-3 py-1 border rounded">Email</a>
             <a href="https://github.com/kimmy2956" target="_blank" rel="noreferrer" className="px-3 py-1 border rounded">GitHub</a>
-            <a href="https://www.jobthai.com/th/resume-profile/view-resume" className="px-3 py-1 border rounded">Download CV</a>
+            <a href="/resume.pdf" className="px-3 py-1 border rounded">Download CV</a>
           </div>
         </div>
       </div>
