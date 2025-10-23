@@ -1,4 +1,4 @@
-import Image from '../components/image'
+import Image from '../components'
 import ProjectCard from '../components/ProjectCard'
 
 export default function Home() {
