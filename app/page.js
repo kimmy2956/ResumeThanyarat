@@ -37,6 +37,13 @@ export default function Home() {
         </div>
       </section>
 
+       <section className="mt-8">
+        <h2 className="text-2xl font-semibold">Projects</h2>
+        <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+          {projects.map(p => (<ProjectCard key={p.title} project={p} />))}
+        </div>
+      </section>    
+     
       <section className="mt-8">
         <h2 className="text-2xl font-semibold">ประสบการณ์การทำงาน</h2>
         <div className="mt-3 space-y-3 text-slate-700">
