@@ -5,6 +5,7 @@ export default function Home() {
   const projects = [
     { title: 'Project เว็บคำนวณ', desc: 'เว็บไซต์นี้สร้างขึ้นเพื่อคำนวณราคาสำหรับฝ่ายขาย', link: 'https://kimmy2956.github.io/salebpp-cululation/' },
     { title: 'Project เว็บทำนายฝันโดยใช้ AI', desc: 'เว็บไซต์นี้สร้างขึ้นเพื่อทำนายดวงชะตาโดยดึงใช้ข้อมูลจาก AIGemeni', link: 'https://dream-interpretation-vercel.vercel.app/' },
+    { title: 'Project Application สำหรับสต็อกยา', desc: '', link: 'https://stockploy-medicine.glide.page/dl/d0a5f4' },
   ]
 
   return (
@@ -19,7 +20,7 @@ export default function Home() {
           <p className="mt-2 text-sm text-slate-500">รักการเรียนรู้เทคโนโลยีใหม่ ๆ ทำงานเป็นระบบ</p>
           <div className="mt-3 flex gap-3">
             <a href="thanyarat.phapa@gmail.com" className="px-3 py-1 border rounded">Email</a>
-            <a href="https://github.com/kimmy29565" target="_blank" rel="noreferrer" className="px-3 py-1 border rounded">GitHub</a>
+            <a href="https://github.com/kimmy2956" target="_blank" rel="noreferrer" className="px-3 py-1 border rounded">GitHub</a>
             <a href="/resume.pdf" className="px-3 py-1 border rounded">Download CV</a>
           </div>
         </div>
