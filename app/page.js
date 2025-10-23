@@ -3,8 +3,8 @@ import ProjectCard from '../components/ProjectCard'
 
 export default function Home() {
   const projects = [
-    { title: 'Project A', desc: 'คำอธิบายสั้น ๆ ของโปรเจค A', link: '#' },
-    { title: 'Project B', desc: 'คำอธิบายสั้น ๆ ของโปรเจค B', link: '#' },
+    { title: 'Project เว็บคำนวณ', desc: 'เว็บไซต์นี้สร้างขึ้นเพื่อคำนวณราคาสำหรับฝ่ายขาย', link: 'https://kimmy2956.github.io/salebpp-cululation/' },
+    { title: 'Project เว็บทำนายฝันโดยใช้ AI', desc: 'เว็บไซต์นี้สร้างขึ้นเพื่อทำนายดวงชะตาโดยดึงใช้ข้อมูลจาก AIGemeni', link: 'https://dream-interpretation-vercel.vercel.app/' },
   ]
 
   return (
