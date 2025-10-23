@@ -16,7 +16,7 @@ export default function Home() {
         <div>
           <h1 className="text-3xl font-bold">ธันยรัศมิ์ ประภาจิรสกุล</h1>
           <p className="text-slate-600">ตำแหน่งปัจจุบัน Sale Engineering</p>
-          <p className="mt-2 text-sm text-slate-500">สรุปสั้น ๆ เกี่ยวกับตัวเอง เช่น จุดแข็งหรือประสบการณ์เด่น</p>
+          <p className="mt-2 text-sm text-slate-500">รักการเรียนรู้เทคโนโลยีใหม่ ๆ ทำงานเป็นระบบ</p>
           <div className="mt-3 flex gap-3">
             <a href="thanyarat.phapa@gmail.com" className="px-3 py-1 border rounded">Email</a>
             <a href="https://github.com/kimmy29565" target="_blank" rel="noreferrer" className="px-3 py-1 border rounded">GitHub</a>
