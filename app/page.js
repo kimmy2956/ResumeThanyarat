@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import ProjectCard from '../components/ProjectCard'
-
 export default function Home() {
   const projects = [
     { title: 'Project เว็บคำนวณ', desc: 'เว็บไซต์นี้สร้างขึ้นเพื่อคำนวณราคาสำหรับฝ่ายขาย', link: 'https://kimmy2956.github.io/salebpp-cululation/' },
@@ -34,13 +31,6 @@ export default function Home() {
           {['Java', 'Html', 'Css', 'Photoshop', 'IT Supoort'].map(s => (
             <span key={s} className="px-2 py-1 border rounded text-sm">{s}</span>
           ))}
-        </div>
-      </section>
-
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold">Projects</h2>
-        <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-          {projects.map(p => (<ProjectCard key={p.title} project={p} />))}
         </div>
       </section>
 
