@@ -12,7 +12,7 @@ export default function Home() {
     <section>
       <div className="flex items-center gap-6">
         <div style={{width:120}} className="rounded-full overflow-hidden">
-          <Image src="/profilephoto.jpg" alt="thanyarat photo" width={120} height={120} />
+          <Image src="../profilephoto.jpg" alt="thanyarat photo" width={120} height={120} />
         </div>
         <div>
           <h1 className="text-3xl font-bold">ธันยรัศมิ์ ประภาจิรสกุล</h1>
@@ -21,7 +21,7 @@ export default function Home() {
           <div className="mt-3 flex gap-3">
             <a href="thanyarat.phapa@gmail.com" className="px-3 py-1 border rounded">Email</a>
             <a href="https://github.com/kimmy2956" target="_blank" rel="noreferrer" className="px-3 py-1 border rounded">GitHub</a>
-            <a href="/resume.pdf" className="px-3 py-1 border rounded">Download CV</a>
+            <a href="../resume.pdf" className="px-3 py-1 border rounded">Download CV</a>
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function Home() {
       <section>
         <h2 className="text-2xl font-semibold">ความสามารถด้านคอมพิวเตอร์</h2>
         <div className="mt-3 flex flex-wrap gap-2">
-          {['JavaScript', 'React', 'Next.js', 'Tailwind CSS', 'Node.js'].map(s => (
+          {['Java', 'Html', 'Css', 'Photoshop', 'IT Supoort'].map(s => (
             <span key={s} className="px-2 py-1 border rounded text-sm">{s}</span>
           ))}
         </div>
