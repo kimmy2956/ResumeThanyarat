@@ -11,7 +11,7 @@ export default function Home() {
     <section>
       <div className="flex items-center gap-6">
         <div style={{width:120}} className="rounded-full overflow-hidden">
-          <Image src="36bd7aa809451d0dea546ec2e61182fa.jpg" alt="thanyarat photo" width={120} height={120} />
+          <Image src="profilephoto.jpg" alt="thanyarat photo" width={120} height={120} />
         </div>
         <div>
           <h1 className="text-3xl font-bold">ธันยรัศมิ์ ประภาจิรสกุล</h1>
