@@ -18,8 +18,8 @@ export default function Home() {
           <p className="text-slate-600">ตำแหน่งปัจจุบัน Sale Engineering</p>
           <p className="mt-2 text-sm text-slate-500">สรุปสั้น ๆ เกี่ยวกับตัวเอง เช่น จุดแข็งหรือประสบการณ์เด่น</p>
           <div className="mt-3 flex gap-3">
-            <a href="mailto:you@example.com" className="px-3 py-1 border rounded">Email</a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="px-3 py-1 border rounded">GitHub</a>
+            <a href="thanyarat.phapa@gmail.com" className="px-3 py-1 border rounded">Email</a>
+            <a href="https://github.com/kimmy29565" target="_blank" rel="noreferrer" className="px-3 py-1 border rounded">GitHub</a>
             <a href="/resume.pdf" className="px-3 py-1 border rounded">Download CV</a>
           </div>
         </div>
