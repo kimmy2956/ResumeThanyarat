@@ -26,7 +26,7 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row items-center gap-6 bg-gradient-to-r from-indigo-50 to-purple-50 p-6 rounded-2xl shadow-md">
         <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-indigo-200">
           {/* 📸 รูปโปรไฟล์ - ใส่ไฟล์ profile.jpg ใน public */}
-          <Image src="public/profile.jpg" alt="profile" width={128} height={128} className="object-cover" />
+          <Image src="/profile.jpg" alt="profile" width={128} height={128} className="object-cover" />
         </div>
         <div className="text-center sm:text-left">
           <h1 className="text-3xl font-bold text-indigo-700">ธันยรัศมิ์ ประภาจิรสกุล</h1>
