@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'public/image'
 import ProjectCard from '../components/ProjectCard'
 
 export default function Home() {
